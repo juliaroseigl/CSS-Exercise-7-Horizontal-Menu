@@ -1,0 +1,78 @@
+/* GLOBAL STYLES */
+
+body {
+	background-color: #fff;
+}
+
+code {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* WRAPPER */
+
+.wrapper {
+    width: 948px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    border: 3px double gray;
+    margin-bottom: 20px;
+    background-color: #dedede;
+    padding: 10px;
+}
+
+/* NAVIGATION */
+
+.menu {
+    background-color: silver;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+.main-content {
+    border: 3px double gray;
+    background-color: #dedede;
+    padding: 10px;
+}
+
+
+.right-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 8px;
+    padding: 0;
+
+}
+
+.right-nav-link {
+    padding: 12px;
+    margin: 0 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.right-nav-link:hover {
+    background-color: #555;
+    color: white;
+    padding-top: 12px;
+    padding-bottom:10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.cta-link {
+    background-color: #555;
+    color: white;
+    padding-top: 12px;
+    padding-bottom:10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}

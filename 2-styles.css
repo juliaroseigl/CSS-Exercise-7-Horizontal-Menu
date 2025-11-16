@@ -1,0 +1,73 @@
+/* GLOBAL STYLES */
+
+body {
+	background-color: azure;
+}
+
+code {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/* WRAPPER */
+
+.wrapper {
+	width: 948px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	border: 3px solid lightsteelblue;
+}
+
+/* HEADER */
+
+.header {
+	padding-top: 20px;
+	background-color: powderblue;
+}
+
+.heading {
+	padding-left: 10px;
+	margin: 0;
+}
+
+.intro {
+	padding-left: 10px;
+}
+
+/* MAIN */
+
+.main-content {
+	padding: 10px;
+}
+
+.wide-nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;  
+}
+
+
+.wide-link {
+    background-color: cornflowerblue;
+    color: navy;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.wide-nav-item {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+
+.wide-link:hover {
+    background-color: lightsteelblue;
+    text-decoration: underline;
+}
+
+.cta-link {
+	background-color: aliceblue;
+	color: navy;
+}
